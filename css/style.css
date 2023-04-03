@@ -1,4 +1,31 @@
 /*Add CSS styles here*/
+.map {
+    border: medium solid #999;
+}
+
+.gratLines {
+    fill: none;
+    stroke: #999;
+    stroke-width: 1px;
+}
+
+.gratBackground {
+    fill: #D5E3FF;
+}
+
+
+.states{
+    fill: #fff;
+    stroke: #ccc;
+    stroke-width: 2px;
+}
+
+.regions {
+    stroke: white;
+    stroke-width: 100px;
+
+}
+
 .axis path,
 .axis line {
     fill: none;
