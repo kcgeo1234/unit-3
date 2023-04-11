@@ -2,6 +2,7 @@
 .map {
     border: medium solid #999;
     margin: 10px 0 0 10px;
+    background-color:rgb(7, 45, 57);
 }
 
 .chart {
@@ -45,19 +46,18 @@
     font-family: sans-serif;
 }
 
-.gratLines {
-    fill: none;
-    stroke: #999;
-    stroke-width: 1px;
-}
-
 .gratBackground {
     fill: #D5E3FF;
 }
 
+.basemap{
+    fill:black;
+    stroke: black;
+    stroke-width: 2px;
+}
 
 .states{
-    fill: #fff;
+    fill:gray;
     stroke: black;
     stroke-width: 2px;
 }
