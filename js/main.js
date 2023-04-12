@@ -126,7 +126,7 @@
             .attr("x", 80)
             .attr("y", 40)
             .attr("class", "chartTitle")
-            .text("Number of "+ expressed+ " GDP in each state");
+            .text("Number of "+ expressed+ " GDP per capita in each state");
 
         //create vertical axis generator
         var yAxis = d3.axisLeft()
