@@ -1,4 +1,8 @@
 /*Add CSS styles here*/
+body{
+    background-color: antiquewhite;
+}
+
 #name{
     font-size: 10px;
     text-align: right;
@@ -7,6 +11,7 @@
 #source{
     display: inline-block;
     font-size: 10px;
+    margin-top: 1px;
 }
 
 h1{
@@ -18,7 +23,7 @@ p {
     font-family: Verdana, sans-serif;
     margin-left: 5%;
     margin-right: 5%;
-
+    margin-bottom: 0;
 }
 
 .map {
@@ -85,7 +90,7 @@ p {
 
 .dropdown {
     position: absolute;
-    top: 380px;
+    top: 350px;
     left: 10%;
     z-index: 10;
     font-family: sans-serif;
