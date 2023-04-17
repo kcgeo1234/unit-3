@@ -1,18 +1,40 @@
 /*Add CSS styles here*/
+#name{
+    font-size: 10px;
+    text-align: right;
+}
+
+#source{
+    display: inline-block;
+    font-size: 10px;
+}
+
+h1{
+    text-align: center;
+    margin: 0% ;
+}
+
+p {
+    font-family: Verdana, sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
 .map {
     border: medium solid #999;
-    margin: 10px 0 0 10px;
+    margin: 10px 0 0 5%;
     background-color:rgb(7, 45, 57);
 }
 
 .chart {
     float: right;
-    margin: 7px 20px 0 0;
+    margin: 7px 4% 0 0;
 }
 
 .chartTitle {
     font-family: sans-serif;
-    font-size: 1.0em;
+    font-size: 80%;
     font-weight: bold;
 }
 
@@ -57,11 +79,26 @@
 }
 
 .states{
-    fill:gray;
     stroke: black;
-    stroke-width: 2px;
+    stroke-width: 1px;
 }
 
+.dropdown {
+    position: absolute;
+    top: 380px;
+    left: 10%;
+    z-index: 10;
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 2px;
+    border: 1px solid #999;
+    box-shadow: 2px 2px 4px #999;
+}
+
+option {
+    font-weight: normal;
+}
 
 
 .axis path,
@@ -81,4 +118,22 @@
     font-family: sans-serif;
     font-size: 1.5em;
     font-weight: bold;
+}
+
+.infolabel {
+    position: absolute;
+    height: 50px;
+    min-width: 100px;
+    z-index: 20;
+    color: #fff;
+    background-color: #000;
+    border: solid thin #fff;
+    padding: 5px 10px;
+}
+
+.infolabel h1 {
+    margin: 0 20px 0 0;
+    padding: 0;
+    display: inline-block;
+    line-height: 1em;
 }
