@@ -75,6 +75,9 @@
             setChart(csvData, colorScale);
 
             createDropdown(csvData);
+
+            var pos = document.querySelector(".map").getBoundingClientRect().bottom + 55;
+            document.querySelector("#source").style.top = pos + "px";
         };
     };
 
