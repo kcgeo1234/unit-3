@@ -103,7 +103,7 @@
         .enter()
         .append("rect")
         .sort(function(a, b){
-            return a[expressed]-b[expressed]
+            return b[expressed]-a[expressed]
         })
         .attr("class", function(d){
             return "bar " + d.name;
@@ -123,7 +123,7 @@
 
         //create a text element for the chart title
         var chartTitle = chart.append("text")
-            .attr("x", 60)
+            .attr("x", 80)
             .attr("y", 40)
             .attr("class", "chartTitle")
             .text("Number of "+ expressed.split("_").join(" ")+ " GDP per capita in each state");
@@ -312,7 +312,7 @@
         var bars = d3.selectAll(".bar")
             //Sort bars
             .sort(function(a, b){
-                return a[expressed] - b[expressed];
+                return b[expressed] - a[expressed];
             })
             .transition()
             .delay(function(d, i){
