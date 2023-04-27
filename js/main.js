@@ -179,11 +179,11 @@
     //function to create color scale generator
     function makeColorScale(data){
         var colorClasses = [
-            "#D4B9DA",
-            "#C994C7",
-            "#DF65B0",
-            "#DD1C77",
-            "#980043"
+            "#eff3ff",
+            "#bdd7e7",
+            "#6baed6",
+            "#3182bd",
+            "#08519c"
         ];
 
         //create color scale generator
